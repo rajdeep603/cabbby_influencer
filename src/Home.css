@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    background-color: black;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+
+
+.navliitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+
+.lihome {
+    color: rgba(245, 200, 72, 1);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.lijoin {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.navliitem li {
+    list-style: none;
+}
+
+.navliitem img {
+    cursor: pointer;
+}
+
+
+
+.landingpage {
+    height: 100%;
+    background-color: black;
+}
+
+
+.landingone {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+
+}
+
+.landingtwo {
+    height: 300px;
+    background: url(./assests/landingbg.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ltwoitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(248, 119, 119); */
+    gap: 100px;
+    width: 100%;
+    height: 80px;
+}
+
+.gettext {
+    font-size: 25px;
+    color: rgba(232, 232, 232, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.howtext {
+    font-size: 16px;
+    color: rgba(232, 232, 232, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.lfitem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inpdiv {
+    height: 70px;
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#inppicklocation {
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px 0;
+    border: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    color: rgba(112, 112, 112, 1);
+}
+
+.btn {
+    height: 62px;
+    width: 63px;
+    background-color: rgba(245, 148, 72, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+
+}
+
+.btn:hover {
+    background-color: rgb(207, 91, 3);
+}
+
+.scrollsection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.scrollsection h1 {
+    font-size: 16px;
+    color: rgba(156, 156, 156, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+
+
+.mapsection {
+    width: 100%;
+    height: 738px;
+    background: url(./assests/mapimg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+
+}
+
+.mapsectiondiv {
+    width: 600px;
+    height: 287px;
+    background-color: rgba(8, 8, 8, 0.678);
+    border-radius: 20px;
+    margin: 0 0 50px 80px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.mapabout {
+    font-size: 35px;
+    color: rgba(232, 232, 232, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.mapspan {
+    color: rgba(245, 200, 72, 1);
+}
+
+.mappara {
+    color: white;
+    width: 500px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+}
+
+
+.readmordiv {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.readmoredivtwo {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 10px
+}
+
+.readmoretext {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+}
+
+
+.appicondiv {
+    display: flex;
+    gap: 40px;
+}
+
+/* .appicondiv img {
+    /* box-shadow: 10px 5px 5px rgb(250, 202, 202); */
+
+
+
+.workssection {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 60px;
+}
+
+.workssectionp {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(232, 232, 232, 1);
+    margin-top: 20px;
+}
+
+.worksectionh1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.worksectionhspan {
+    color: rgba(245, 200, 72, 1);
+}
+
+.worksdivparent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.worksdiv {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
+.dnbtn {
+    height: 67px;
+    width: 67px;
+    background-color: rgba(245, 200, 72, 1);
+    border: none;
+    border-radius: 9px;
+    box-shadow: rgb(245 200 72) 0px 0px 11px 0px;
+}
+
+.worksh1 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(232, 232, 232, 1);
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.worksp {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 10px;
+}
+
+
+.feedback {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feedbacktittle {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.mainfeedbackdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.feedbackdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 194px;
+    width: 409px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(59, 59, 59, 0.35) -1px 4px 11px 0px;
+    flex-direction: column;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.feedbackdetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.detailsdiv {
+    margin-right: 34px;
+}
+
+.detailsh1 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.detailsp {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(202, 197, 197);
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+
+.feedbackdivpara {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-top: 10px;
+    width: 95%;
+    line-height: 22px;
+}
+
+
+.Commitments {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.commitmaindiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0 50px;
+}
+
+.commitmentsheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 150px;
+}
+
+.line {
+    height: 1px;
+    width: 30%;
+    background-color: rgb(102, 99, 99);
+}
+
+.commitmentsh1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 600;
+
+}
+
+.commitementsdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.committittle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.commith1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.commitp {
+    color: rgba(156, 156, 156, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.appssection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.appssection h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.appssection p {
+    color: rgba(232, 232, 232, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.qrsection {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.qrdiv {
+    display: flex;
+    height: 155px;
+    width: 497px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(161, 159, 159, 0.35) 0px 0px 6px 1px;
+    border-radius: 16px;
+    margin-top: 70px;
+}
+
+.rightarrow {
+    height: 40px;
+}
+
+.rightarrowdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.qrtittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.qrtittle h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.qrtittle p {
+    color: rgba(232, 232, 232, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.parentdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+    padding: 60px 40px 40px 40px;
+    border-top: 1px solid white;
+}
+
+.rightfooter {
+    display: flex;
+    gap: 60px;
+
+}
+
+.leftfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.copyright {
+    color: rgba(232, 232, 232, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.reserved {
+    color: rgba(232, 232, 232, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.footernav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footernav h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.footernav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.msgparentdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.msgparentdiv h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.msgparentdiv div {
+    height: 40px;
+    width: 255px;
+    border-radius: 8px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.msgparentdiv div input {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+.msgparentdiv div img {
+    cursor: pointer;
+}
+
+.footernava{
+    margin-top: 15px;
+}
+
+
+.socialicon{
+    display: flex;
+    gap: 15px;
+}
